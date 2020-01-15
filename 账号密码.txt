@@ -1,0 +1,35 @@
+http://www.dailichun.com/2018/03/12/whenyouenteraurl.html
+博客 前端知识框架梳理
+
+https://free.modao.cc/app/c4f2f5f80b624f249aed2075fdd34766b7d7e4db#screen=sk3fmzmwgo3k2s1 
+ 前端原型图 12月11日
+
+pc 管理后台：
+https://free.modao.cc/app/c4f2f5f80b624f249aed2075fdd34766b7d7e4db
+
+
+移动端商城：
+https://free.modao.cc/app/8b9fd27a3569b3221722b1ada5b1566f11af4a76
+
+vue路由实现原理:
+https://www.jianshu.com/p/4295aec31302
+
+https://www.iviewui.com/components/layout 紫漠layout布局
+
+https://free.modao.cc/app/8b9fd27a3569b3221722b1ada5b1566f11af4a76#screen=sk3fng61l6srbgi  京东模板
+
+
+码云：  haozhengkai     1602150498321.
+Github:  haozhengkai     h1602150498321.
+
+
+
+
+
+
+
+
+
+
+
+

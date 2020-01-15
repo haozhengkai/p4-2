@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		// 非多态
+		function Cat(){
+			
+		}
+		function Dog(){}
+		var wangcai=new Dog();
+		
+		function Wolf(){
+		}
+		// 接口
+		function  sound(obj){
+			if(obj instanceof Cat){
+				console.log("喵喵喵")
+			}else if (obj instanceof Dog){
+				console.log("汪汪汪")
+			}else if(obj instanceof Wolf){
+				console.log("嗷嗷嗷")
+			}
+		}
+		sound(wangcai)
+
+
+		function Dog2(){
+			
+		}
+		Dog2.prototype.sound=function(){
+			console.log("汪汪汪");
+		}
+		
+		function Wolf2(){
+			
+		}
+		Wolf2.prototype.sound=function(){
+			console.log("嗷嗷嗷");
+		}
+		
+		
+		// 多态
+		function sound2(obj){
+			obj.sound();
+		}
+		
+		var  lang=new Wolf2();
+		sound2(lang)
+		
+	</script>
+</html>
