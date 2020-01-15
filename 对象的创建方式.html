@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div ></div>
+		<script type="text/javascript">
+			//1字面量
+		  var cookie={
+			  get:function(){},
+			  set:function(){},
+			  del:function(){}
+		  }
+		  //2 空对象
+		  var obj=new Object();
+		  obj.eat=function(){}
+		 //3.	object.create()--创建一个类似的对象
+		 var car={
+			 name:"奔驰",
+			 color:"红色"
+		 }
+		 var car1=Object.create(car);
+		 console.log(car1)
+			car1={
+				__proto__:{
+					name:"奔驰",
+					color:"红色"
+				}
+			}
+			
+		</script>
+	</body>
+</html>
